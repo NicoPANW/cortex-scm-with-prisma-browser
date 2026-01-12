@@ -1,4 +1,4 @@
-# Extended Prisma SASE Integration (Browser Management)
+# Extended Prisma SASE Integration with Prisma Browser
 
 > ⚠️ **Disclaimer: POC Grade Code**
 >
