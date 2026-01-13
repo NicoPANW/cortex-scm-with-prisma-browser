@@ -30,7 +30,13 @@ The script has been updated to support the `/seb-api/v1/` endpoints. The followi
     * Restore
     * Delete
 
-### 3. Group & Policy Objects
+### 3. User Request Management
+* **List Requests:** View access requests submitted by users.
+* **Get Request Details:** Retrieve specific details for a single request.
+* **Decision Actions:** Approve or Deny pending requests with optional justification messages.
+* **Revocation:** Revoke previously approved requests.
+
+### 4. Group & Policy Objects
 * **List Device Groups:** View device groups.
 * **List User Groups:** View user groups.
 * **List Applications:** View configured applications.
@@ -54,6 +60,10 @@ The following commands have been implemented in this version:
 | `!prisma-sase-browser-access-user-group-list` | Lists user groups. |
 | `!prisma-sase-browser-access-application-list` | Lists applications. |
 | `!prisma-sase-browser-access-user-request-list` | Lists user access requests. |
+| `!prisma-sase-browser-access-user-request-get` | Returns details for a specific request by ID. |
+| `!prisma-sase-browser-access-user-request-approve` | Approves a user request (optional `message` arg). |
+| `!prisma-sase-browser-access-user-request-deny` | Denies a user request (optional `message` arg). |
+| `!prisma-sase-browser-access-user-request-revoke` | Revokes an approved request (optional `message` arg). |
 
 ## Configuration
 
