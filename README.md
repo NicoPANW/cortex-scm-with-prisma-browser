@@ -33,7 +33,7 @@ The script has been updated to support the `/seb-api/v1/` endpoints. The followi
 ### 3. User Request Management
 * **List Requests:** View access requests submitted by users.
 * **Get Request Details:** Retrieve specific details for a single request.
-* **Decision Actions:** Approve or Deny pending requests with optional justification messages.
+* **Decision Actions:** Approve or Decline pending requests with optional justification messages.
 * **Revocation:** Revoke previously approved requests.
 
 ### 4. Group & Policy Objects
@@ -62,7 +62,7 @@ The following commands have been implemented in this version:
 | `!prisma-sase-browser-access-user-request-list` | Lists user access requests. |
 | `!prisma-sase-browser-access-user-request-get` | Returns details for a specific request by ID. |
 | `!prisma-sase-browser-access-user-request-approve` | Approves a user request (optional `message` arg). |
-| `!prisma-sase-browser-access-user-request-deny` | Denies a user request (optional `message` arg). |
+| `!prisma-sase-browser-access-user-request-decline` | Declines a user request (optional `message` arg). |
 | `!prisma-sase-browser-access-user-request-revoke` | Revokes an approved request (optional `message` arg). |
 
 ## Configuration
