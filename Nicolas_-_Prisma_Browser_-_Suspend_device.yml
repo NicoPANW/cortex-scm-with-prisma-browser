@@ -1,5 +1,5 @@
 id: fd5fe4ef-83c0-440f-8a9a-4bf0898d9148
-version: 26
+version: 28
 vcShouldKeepItemLegacyProdMachine: false
 name: Nicolas - Prisma Browser - Suspend device
 starttaskid: "0"
@@ -37,13 +37,14 @@ tasks:
     isautoswitchedtoquietmode: false
   "1":
     id: "1"
-    taskid: 59899d50-2eb0-4c8b-b2ee-6d595794ae83
+    taskid: 75d2fe72-b5fa-4d1e-aca1-f4dfebf511f2
     type: regular
     task:
-      id: 59899d50-2eb0-4c8b-b2ee-6d595794ae83
+      id: 75d2fe72-b5fa-4d1e-aca1-f4dfebf511f2
       version: -1
-      name: prisma-sase-browser-access-device-suspend
-      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||prisma-sase-browser-access-device-suspend'
+      name: prisma-sase-pb-device-suspend
+      description: Suspend a device by Device IDs
+      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||prisma-sase-pb-device-suspend'
       type: regular
       iscommand: true
       brand: ' Palo Alto Networks - Strata Cloud Manager - with PB'
@@ -102,13 +103,14 @@ tasks:
     isautoswitchedtoquietmode: false
   "4":
     id: "4"
-    taskid: e49792d7-f4f7-4fad-9d72-fce08db11396
+    taskid: 04a0dae7-7857-4009-9a89-49d571be85a7
     type: regular
     task:
-      id: e49792d7-f4f7-4fad-9d72-fce08db11396
+      id: 04a0dae7-7857-4009-9a89-49d571be85a7
       version: -1
-      name: prisma-sase-browser-access-device-list
-      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||prisma-sase-browser-access-device-list'
+      name: prisma-sase-pb-device-list
+      description: List PB devices
+      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||prisma-sase-pb-device-list'
       type: regular
       iscommand: true
       brand: ' Palo Alto Networks - Strata Cloud Manager - with PB'
