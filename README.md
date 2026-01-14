@@ -48,22 +48,22 @@ The following commands have been implemented in this version:
 
 | Command | Description |
 | :--- | :--- |
-| `!prisma-sase-browser-access-user-list` | Lists all users in the Browser Management scope. |
-| `!prisma-sase-browser-access-device-list` | Lists devices (supports filtering by hostname/username). |
-| `!prisma-sase-browser-access-device-get` | Returns details for a specific device by ID. |
-| `!prisma-sase-browser-access-device-suspend` | Suspends a specific device (by ID or list of IDs). |
-| `!prisma-sase-browser-access-device-resume` | Resumes a suspended device. |
-| `!prisma-sase-browser-access-device-archive` | Archives a device. |
-| `!prisma-sase-browser-access-device-restore` | Restores an archived device. |
-| `!prisma-sase-browser-access-device-delete` | Deletes a device record. |
-| `!prisma-sase-browser-access-device-group-list` | Lists device groups. |
-| `!prisma-sase-browser-access-user-group-list` | Lists user groups. |
-| `!prisma-sase-browser-access-application-list` | Lists applications. |
-| `!prisma-sase-browser-access-user-request-list` | Lists user access requests. |
-| `!prisma-sase-browser-access-user-request-get` | Returns details for a specific request by ID. |
-| `!prisma-sase-browser-access-user-request-approve` | Approves a user request (optional `message` arg). |
-| `!prisma-sase-browser-access-user-request-decline` | Declines a user request (optional `message` arg). |
-| `!prisma-sase-browser-access-user-request-revoke` | Revokes an approved request (optional `message` arg). |
+| `!prisma-sase-pb-user-list` | Lists all users in the Browser Management scope. |
+| `!prisma-sase-pb-device-list` | Lists devices (supports filtering by hostname/username). |
+| `!prisma-sase-pb-device-get` | Returns details for a specific device by ID. |
+| `!prisma-sase-pb-device-suspend` | Suspends a specific device (by ID or list of IDs). |
+| `!prisma-sase-pb-device-resume` | Resumes a suspended device. |
+| `!prisma-sase-pb-device-archive` | Archives a device. |
+| `!prisma-sase-pb-device-restore` | Restores an archived device. |
+| `!prisma-sase-pb-device-delete` | Deletes a device record. |
+| `!prisma-sase-pb-device-group-list` | Lists device groups. |
+| `!prisma-sase-pb-user-group-list` | Lists user groups. |
+| `!prisma-sase-pb-application-list` | Lists applications. |
+| `!prisma-sase-pb-user-request-list` | Lists user access requests. |
+| `!prisma-sase-pb-user-request-get` | Returns details for a specific request by ID. |
+| `!prisma-sase-pb-user-request-approve` | Approves a user request (optional `message` arg). |
+| `!prisma-sase-pb-user-request-decline` | Declines a user request (optional `message` arg). |
+| `!prisma-sase-pb-user-request-revoke` | Revokes an approved request (optional `message` arg). |
 
 ## Configuration
 
