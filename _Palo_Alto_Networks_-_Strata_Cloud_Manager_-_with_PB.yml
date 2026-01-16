@@ -2011,6 +2011,7 @@ script:
     SEARCH_LIMIT = 200
     DEFAULT_LIMIT = 50
     PA_OUTPUT_PREFIX = "PrismaSase."
+    CONFIG_URI_PREFIX = "/sse/config/v1/"
 
     # adding PB URI - start
     BROWSER_MGMT_URI_PREFIX = "/seb-api/v1/"
