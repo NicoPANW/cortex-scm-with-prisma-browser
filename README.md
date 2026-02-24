@@ -19,6 +19,9 @@ The script has been updated to support the `/seb-api/v1/` endpoints. The followi
 
 ### 1. User Management
 * **List Users:** Retrieve a list of users configured for Browser Access.
+* **Lifecycle Actions:** Perform the following actions on users:
+    * Suspend
+    * Resume
 
 ### 2. Device Management
 * **List Devices:** Search and list devices with filtering options.
@@ -49,6 +52,8 @@ The following commands have been implemented in this version:
 | Command | Description |
 | :--- | :--- |
 | `!prisma-sase-pb-user-list` | Lists all users in the Browser Management scope. |
+| `!prisma-sase-pb-user-suspend` | Suspends a specific users (by ID or list of IDs). |
+| `!prisma-sase-pb-user-resume` | Resumes a specific users (by ID or list of IDs). |
 | `!prisma-sase-pb-device-list` | Lists devices (supports filtering by hostname/username). |
 | `!prisma-sase-pb-device-get` | Returns details for a specific device by ID. |
 | `!prisma-sase-pb-device-suspend` | Suspends a specific device (by ID or list of IDs). |
