@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains a modified version of the Content Pack for the **Palo Alto Networks - Prisma SASE** integration (formerly Prisma Access) for Cortex XSOAR/XSIAM.
+This repository contains a modified version of the Content Pack for the **Palo Alto Networks - Prisma SASE** integration (formerly Prisma Access) for Cortex XSOAR/XSIAM/XDR.
 
 The primary goal of this modification is to introduce support for the **Prisma Browser API**, enabling programmatic management of browser users, devices, and policies directly from Cortex.
 
