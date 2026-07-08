@@ -39,11 +39,18 @@ The script has been updated to support the `/seb-api/v1/` endpoints. The followi
 * **Decision Actions:** Approve or Decline pending requests with optional justification messages.
 * **Revocation:** Revoke previously approved requests.
 
-### 4. Group & Policy Objects
+### 4. Group Objects
 * **List Device Groups:** View device groups.
 * **List User Groups:** View user groups.
 * **List Applications:** View configured applications.
 * **List User Requests:** View access requests made by users.
+
+### 5. Policy access and data
+* **List policies:** Lists policy access and data rules.
+* **Update policy to add a user:** Updates/patches a policy access and data rule by adding users.
+
+### 6. Publishes the draft configuration
+* **Config Publish:** Publishes the draft configuration.
 
 ## Added Commands
 
@@ -69,6 +76,9 @@ The following commands have been implemented in this version:
 | `!prisma-sase-pb-user-request-approve` | Approves a user request (optional `message` arg). |
 | `!prisma-sase-pb-user-request-decline` | Declines a user request (optional `message` arg). |
 | `!prisma-sase-pb-user-request-revoke` | Revokes an approved request (optional `message` arg). |
+| `!prisma-sase-pb-policy-access-and-data-list` | Lists policy access and data rules. |
+| `!prisma-sase-pb-policy-access-and-data-rule-update-user` | Updates/patches a policy access and data rule by adding users with their unique User IDs. |
+| `!prisma-sase-pb-config-publish` | Publishes the draft configuration. |
 
 ## Configuration
 
