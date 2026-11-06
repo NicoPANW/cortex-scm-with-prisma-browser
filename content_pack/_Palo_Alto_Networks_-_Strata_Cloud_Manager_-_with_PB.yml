@@ -3650,6 +3650,7 @@ script:
     def list_pb_policy_access_and_data_command(client: Client, args: Dict[str, Any]) -> CommandResults:
         """Command to list policy access and data rules"""
         query_params = get_pagination_params(args)
+        query_params.pop("offset", None)
         tsg_id = args.get("tsg_id")
         raw_response = client.list_pb_policy_access_and_data(query_params=query_params, tsg_id=tsg_id)
         outputs = raw_response.get("data", raw_response)
