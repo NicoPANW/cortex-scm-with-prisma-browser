@@ -42,9 +42,9 @@ tasks:
     task:
       id: 75d2fe72-b5fa-4d1e-aca1-f4dfebf511f2
       version: -1
-      name: prisma-sase-pb-device-suspend
+      name: pb-device-suspend
       description: Suspend a device by Device IDs
-      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||prisma-sase-pb-device-suspend'
+      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||pb-device-suspend'
       type: regular
       iscommand: true
       brand: ' Palo Alto Networks - Strata Cloud Manager - with PB'
@@ -108,9 +108,9 @@ tasks:
     task:
       id: 04a0dae7-7857-4009-9a89-49d571be85a7
       version: -1
-      name: prisma-sase-pb-device-list
+      name: pb-device-list
       description: List PB devices
-      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||prisma-sase-pb-device-list'
+      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||pb-device-list'
       type: regular
       iscommand: true
       brand: ' Palo Alto Networks - Strata Cloud Manager - with PB'

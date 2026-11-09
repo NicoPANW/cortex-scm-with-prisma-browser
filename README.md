@@ -1,4 +1,4 @@
-# Extended Prisma SASE Integration with Prisma Browser
+# Prisma Browser SCM integration
 
 > ⚠️ **Disclaimer: POC Grade Code**
 >
@@ -6,12 +6,8 @@
 
 ## Overview
 
-This repository contains a modified version of the Content Pack for the **Palo Alto Networks - Prisma SASE** integration (formerly Prisma Access) for Cortex XSOAR/XSIAM/XDR.
+The primary goal of this integration is to introduce support for the **Prisma Browser API**, enabling programmatic management of browser users, devices, and policies directly from Cortex.
 
-The primary goal of this modification is to introduce support for the **Prisma Browser API**, enabling programmatic management of browser users, devices, and policies directly from Cortex.
-
-This extends the capabilities of the official marketplace pack found here:
-[Prisma Access on Cortex Marketplace](https://cortex.marketplace.pan.dev/marketplace/details/PrismaAccess/)
 
 ## New Capabilities
 
@@ -58,32 +54,32 @@ The following commands have been implemented in this version:
 
 | Command | Description |
 | :--- | :--- |
-| `!prisma-sase-pb-user-list` | Lists all users in the Browser Management scope. |
-| `!prisma-sase-pb-user-suspend` | Suspends a specific users (by ID or list of IDs). |
-| `!prisma-sase-pb-user-resume` | Resumes a specific users (by ID or list of IDs). |
-| `!prisma-sase-pb-device-list` | Lists devices (supports filtering by hostname/username). |
-| `!prisma-sase-pb-device-get` | Returns details for a specific device by ID. |
-| `!prisma-sase-pb-device-suspend` | Suspends a specific device (by ID or list of IDs). |
-| `!prisma-sase-pb-device-resume` | Resumes a suspended device. |
-| `!prisma-sase-pb-device-archive` | Archives a device. |
-| `!prisma-sase-pb-device-restore` | Restores an archived device. |
-| `!prisma-sase-pb-device-delete` | Deletes a device record. |
-| `!prisma-sase-pb-device-group-list` | Lists device groups. |
-| `!prisma-sase-pb-user-group-list` | Lists user groups. |
-| `!prisma-sase-pb-application-list` | Lists applications. |
-| `!prisma-sase-pb-user-request-list` | Lists user access requests. |
-| `!prisma-sase-pb-user-request-get` | Returns details for a specific request by ID. |
-| `!prisma-sase-pb-user-request-approve` | Approves a user request (optional `message` arg). |
-| `!prisma-sase-pb-user-request-decline` | Declines a user request (optional `message` arg). |
-| `!prisma-sase-pb-user-request-revoke` | Revokes an approved request (optional `message` arg). |
-| `!prisma-sase-pb-policy-access-and-data-list` | Lists policy access and data rules. |
-| `!prisma-sase-pb-policy-access-and-data-rule-update-user` | Updates/patches a policy access and data rule by adding users with their unique User IDs. |
-| `!prisma-sase-pb-config-publish` | Publishes the draft configuration. |
+| `!pb-user-list` | Lists all users in the Browser Management scope. |
+| `!pb-user-suspend` | Suspends a specific users (by ID or list of IDs). |
+| `!pb-user-resume` | Resumes a specific users (by ID or list of IDs). |
+| `!pb-device-list` | Lists devices (supports filtering by hostname/username). |
+| `!pb-device-get` | Returns details for a specific device by ID. |
+| `!pb-device-suspend` | Suspends a specific device (by ID or list of IDs). |
+| `!pb-device-resume` | Resumes a suspended device. |
+| `!pb-device-archive` | Archives a device. |
+| `!pb-device-restore` | Restores an archived device. |
+| `!pb-device-delete` | Deletes a device record. |
+| `!pb-device-group-list` | Lists device groups. |
+| `!pb-user-group-list` | Lists user groups. |
+| `!pb-application-list` | Lists applications. |
+| `!pb-user-request-list` | Lists user access requests. |
+| `!pb-user-request-get` | Returns details for a specific request by ID. |
+| `!pb-user-request-approve` | Approves a user request (optional `message` arg). |
+| `!pb-user-request-decline` | Declines a user request (optional `message` arg). |
+| `!pb-user-request-revoke` | Revokes an approved request (optional `message` arg). |
+| `!pb-policy-access-and-data-list` | Lists policy access and data rules. |
+| `!pb-policy-access-and-data-rule-update-user` | Updates/patches a policy access and data rule by adding users with their unique User IDs. |
+| `!pb-config-publish` | Publishes the draft configuration. |
 
 ## Configuration
 
 To use this script:
-1.  Ensure your **Prisma SASE** instance is configured with the correct **TSG ID**, **Client ID**, and **Client Secret**.
+1.  Ensure your **Prisma Broswer** instance is configured with the correct **TSG ID**, **Client ID**, and **Client Secret**.
 2.  The Base URL should remain the standard API gateway (e.g., `https://api.sase.paloaltonetworks.com`). The script automatically handles the `/seb-api/v1/` routing.
 3.  Upload the yaml file into Cortex BYOI
 
