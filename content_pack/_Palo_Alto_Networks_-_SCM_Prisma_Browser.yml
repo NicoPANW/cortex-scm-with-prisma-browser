@@ -16,8 +16,8 @@ detaileddescription: |-
   3. Make a note of the **Client ID** and **Client Secret**.  These will be used to configure the integration.
 
 
-  ## SCM API
-  https://pan.dev/scm
+  ## Prisma Browser API
+  https://pan.dev/prisma-browser/
 
   ## Required Permissions
 

@@ -11,7 +11,7 @@ The primary goal of this integration is to introduce support for the **Prisma Br
 
 ## New Capabilities
 
-The script has been updated to support the `/seb-api/v1/` endpoints. The following capabilities have been added:
+The script has been updated to support the `/seb-api/v1/` endpoints from https://pan.dev/prisma-browser/. The following capabilities have been added:
 
 ### 1. User Management
 * **List Users:** Retrieve a list of users configured for Browser Access.
@@ -80,7 +80,7 @@ The following commands have been implemented in this version:
 
 To use this script:
 1.  Ensure your **Prisma Broswer** instance is configured with the correct **TSG ID**, **Client ID**, and **Client Secret**.
-2.  The Base URL should remain the standard API gateway (e.g., `https://api.sase.paloaltonetworks.com`). The script automatically handles the `/seb-api/v1/` routing.
+2.  The Base URL should remain the standard API gateway (e.g., `https://api.strata.paloaltonetworks.com`). The script automatically handles the `/seb-api/v1/` routing.
 3.  Upload the yaml file into Cortex BYOI
 
 ## Things to know
