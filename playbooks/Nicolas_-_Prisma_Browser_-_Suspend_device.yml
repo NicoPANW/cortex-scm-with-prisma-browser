@@ -1,6 +1,11 @@
 id: fd5fe4ef-83c0-440f-8a9a-4bf0898d9148
-version: 28
+version: 30
 vcShouldKeepItemLegacyProdMachine: false
+aclrelations: []
+aclowner:
+  id: ""
+  type: ""
+  name: ""
 name: Nicolas - Prisma Browser - Suspend device
 starttaskid: "0"
 tasks:
@@ -37,17 +42,17 @@ tasks:
     isautoswitchedtoquietmode: false
   "1":
     id: "1"
-    taskid: 75d2fe72-b5fa-4d1e-aca1-f4dfebf511f2
+    taskid: fdb12d18-4e57-48f1-9c59-e92674fc1637
     type: regular
     task:
-      id: 75d2fe72-b5fa-4d1e-aca1-f4dfebf511f2
+      id: fdb12d18-4e57-48f1-9c59-e92674fc1637
       version: -1
       name: pb-device-suspend
       description: Suspend a device by Device IDs
-      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||pb-device-suspend'
+      script: ' Prisma Browser intergration for Cortex|||pb-device-suspend'
       type: regular
       iscommand: true
-      brand: ' Palo Alto Networks - Strata Cloud Manager - with PB'
+      brand: ' Prisma Browser intergration for Cortex'
       playbooktaskmissingcomponent: null
       istaskmissingcomponenterrordismissed: false
     nexttasks:
@@ -103,17 +108,17 @@ tasks:
     isautoswitchedtoquietmode: false
   "4":
     id: "4"
-    taskid: 04a0dae7-7857-4009-9a89-49d571be85a7
+    taskid: edb23af6-f751-4d1f-af6d-f88c89eef249
     type: regular
     task:
-      id: 04a0dae7-7857-4009-9a89-49d571be85a7
+      id: edb23af6-f751-4d1f-af6d-f88c89eef249
       version: -1
       name: pb-device-list
       description: List PB devices
-      script: ' Palo Alto Networks - Strata Cloud Manager - with PB|||pb-device-list'
+      script: ' Prisma Browser intergration for Cortex|||pb-device-list'
       type: regular
       iscommand: true
-      brand: ' Palo Alto Networks - Strata Cloud Manager - with PB'
+      brand: ' Prisma Browser intergration for Cortex'
       playbooktaskmissingcomponent: null
       istaskmissingcomponenterrordismissed: false
     nexttasks:
@@ -286,6 +291,7 @@ tasks:
     quietmode: 0
     isoversize: false
     isautoswitchedtoquietmode: false
+outlinetasks: {}
 view: |-
   {
     "linkLabelsPosition": {},
@@ -301,3 +307,4 @@ view: |-
 inputs: []
 outputs: []
 adopted: true
+possibleresponses: []
