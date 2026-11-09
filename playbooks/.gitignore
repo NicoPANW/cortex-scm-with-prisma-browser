@@ -1,0 +1,15 @@
+# local terraform runtime directories & providers
+.terraform/
+.terraform.lock.hcl
+
+# terraform local state files (highly sensitive - contains plain-text PSKs/secrets)
+*.tfstate
+*.tfstate.*
+
+# python compiler caches
+__pycache__/
+*.pyc
+*.pyo
+
+# MAC
+.DS_Store
