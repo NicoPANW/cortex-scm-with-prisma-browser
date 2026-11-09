@@ -1,4 +1,4 @@
-# Prisma Browser SCM integration
+# Prisma Browser integration for Cortex
 
 > ⚠️ **Disclaimer: POC Grade Code**
 >
